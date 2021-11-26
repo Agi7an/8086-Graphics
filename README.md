@@ -1,2 +1,3 @@
 8086-Graphics
-This 8086 assembly program takes a text file(containing an image in the form of 0s and 1s) and displays the picture in the form of pixels
+
+This package explores how graphics can be handled in the 8086 assembly language. We have divided our package into two specialized projects. The first one, when given an input image in the form of binary, can print the black and white form of that image, pixel by pixel. This was achieved with the help of file handling and array manipulation along with the graphics interrupts available in the 8086 assembly language. The second program allows the users to draw on the screen using multiple colours. We were able to do this with the help of interrupts that enabled us to receive user input and also detect the location of the mouse. The codes and sample outputs for our programs have been included below.
